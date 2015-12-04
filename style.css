@@ -1751,8 +1751,15 @@ height:35px;
 }
 
 .sportsspace-list{
-  
-  margin-top:10%;
+    position: relative;
+  vertical-align: center;
+  color:black;
+  font-size: 17px;
+  margin-top: 5px;
+  float:right;
+  text-align: left;
+
+  margin-top:30%;
   
 }
 
