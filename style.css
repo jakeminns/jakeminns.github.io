@@ -867,7 +867,7 @@ height:auto;
 width:auto;
 padding:8px;
 border-radius: 50%;
-background-color: black;
+background-color: none;
 }
 
 #left-control:hover span {
