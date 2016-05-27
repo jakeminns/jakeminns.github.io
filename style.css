@@ -1671,6 +1671,10 @@ height:35px;
 
 
 /* Main Work */
+#work-anchor{
+  display:none;
+}
+
 
 .small-resolution-container {
   display:none;
