@@ -182,7 +182,7 @@ text-transform: uppercase;
 }
 
 /* .active-button-3 h1 {
-  background-color:#35cc75; 
+  background-color:#4ECDC4; 
   color:white;
 
 }*/
@@ -1422,7 +1422,7 @@ z-index: 1000;
 }
 
 .project-link:hover  .project-header{
-  background-color: #35cc75;
+  background-color: #4ECDC4;
 }
 
 
@@ -1882,7 +1882,7 @@ color:black;
 
 }
 .project-main-header  {
-  background-color:#35cc75; 
+  background-color:#4ECDC4; 
   color:white;
 
 }
