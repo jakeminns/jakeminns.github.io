@@ -1441,7 +1441,6 @@ opacity: 0.7;
 }
 
 
-
 .project-link-clicked {
 display:inline;
 }
@@ -1668,6 +1667,107 @@ height:35px;
 
 
 
+/*Photo*/
+
+#photo-body {
+  background-image:url('');
+  height:100%;
+     text-align:center;
+       padding-top:150px;
+  /*padding-bottom:20px; */
+
+}
+
+
+.photo-slide{
+  width:100%;
+  margin: 0 auto;
+  display:inline-block;
+  margin-top: 2%;
+}
+
+.photo-item {
+position: relative;
+height:100%;
+width:100%;
+background-color: transparent;
+overflow:auto;
+
+}
+
+.photo-container{
+  text-align: center;
+  overflow: hidden;
+    margin:0;
+  padding:0;
+ /* border:3pt solid black; */
+}
+
+.photo-box {
+  margin:0;
+  padding:0;
+/*border:3pt solid black; */
+
+}
+
+.photo-para {
+text-align:left;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+}
+
+#photo-left-control {
+
+height:100%;
+background-image: none;
+line-height: 50%;
+width:10%;
+min-width: 50px;
+ opacity:1;
+
+}
+#photo-left-control span{
+color:white;
+text-shadow:none;
+font-size: 35px;
+height:auto;
+width:auto;
+padding:8px;
+border-radius: 50%;
+background-color: none;
+}
+
+#photo-right-control {
+
+height:100%;
+background-image: none; 
+width:10%;
+min-width: 50px;
+ opacity:1;
+
+}
+#photo-right-control span{
+color:white;
+text-shadow:none;
+font-size: 40px;
+height:auto;
+width:auto;
+padding:8px;
+border-radius: 50%;
+background-color: none;
+}
+
+#photo-left-control:hover span {
+font-size: 50px;
+}
+
+#photo-right-control:hover span {
+font-size: 50px;
+}
+
+
+
+
 
 
 /* Main Work */
@@ -1803,7 +1903,7 @@ height:35px;
 }
 
 
-/* Main Community */ 
+/* Main  */ 
 
 
 .community-header {
@@ -1901,6 +2001,21 @@ color:#e65142;
   color:white;
 
 }
+
+
+
+.photography-header {
+  width:320px;
+}
+
+
+
+.photography-color {
+  background-color: #c0392b; 
+  color:white;
+
+}
+
 
 
 
