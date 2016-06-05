@@ -1951,7 +1951,6 @@ border-top:1px solid rgba(88, 88, 88, 1);
 background-color: rgba(88, 88, 88, 0.3);
 opacity:0.3;
      text-align:center;
-
 height:70px;
 
 }
@@ -1959,8 +1958,47 @@ height:70px;
 .footer{
 padding-top: 25px;
 color:black; 
+text-align: center;
+display: inline-block;
+position:relative;
+
 
 } 
+
+.footer-icon {
+    background-size: 30px 30px;
+    border:none;
+    border-radius: 50%;
+float:right;
+  position: relative;
+  
+  height:30px;
+  width:30px;
+margin-left: 5px;
+  margin-left:5px;
+  top:-5px;
+
+}
+
+
+.facebook-icon-foot {
+
+      background-image: url('https://cdn3.iconfinder.com/data/icons/modern-social-free/1024/Facebook-128.png');
+
+}
+
+
+.flickr-icon-foot {
+      background-image: url('https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Flickr-128.png');
+
+}
+
+
+.linkdin-icon-foot  {
+    background-image: url('https://cdn3.iconfinder.com/data/icons/modern-social-free/1024/Linkedin-128.png');
+
+
+}
 
 
 .about-me-header {
@@ -2032,6 +2070,9 @@ color:#e65142;
 
 @media screen and (max-width: 1500px) {
 
+
+
+
  .header-slide {
   font-size: 250%;
  }
@@ -2046,8 +2087,9 @@ color:#e65142;
 }
 
 .main-text {
-      width:90%;
+      width:70%;
     }
+
 
 
 #about-descrip {
@@ -2206,6 +2248,13 @@ margin-top:13px
 
 
 
+.project-photo {
+height:222.7319px;
+width:290px;
+
+}
+
+
 .work-date-hip-slide{
 
   font-size:17px;
@@ -2232,10 +2281,162 @@ margin-top:13px
 
 
 
+.about-me-text{
+
+  font-size: 15px;
+}
+
+.uni-descr {
+
+  font-size: 15px;
+}
+
+.uni-results tr td {
+
+  font-size: 15px;
+}
+
+.uni-text {
+
+font-size: 20px;
+}
+
+.uni-s{
+
+font-size: 16px;
+
+}
+
+
+.bracket-symb {
+margin-top: 20px;
+font-size: 60px;
+}
+
+.lang-underline {
+
+width: 60px;
+height: 6px;
+}
+
+.lang-header-skill {
+
+font-size: 30px;
+margin-top: 20px;
+
+}
+
+.software-header {
+  margin-bottom: 40px;
+}
+
+
+
+.soft-symb {
+  margin-top: 20px;
+
+  font-size: 60px;
+}
 
 
 
 
+.soft-list {
+
+font-size: 15px;
+}
+
+
+.soft-underline {
+
+width: 60px;
+height: 6px;
+}
+
+
+.soft-header-skill {
+  font-size: 30px;
+  margin-top: 4px;
+}
+
+.soft-list-text {
+  font-size: 15px;
+}
+
+
+.os-symb {
+margin-top: 20px;
+
+font-size: 60px;
+  margin-top:14px;
+
+
+}
+
+
+.os-underline {
+  width: 60px;
+  height:6px;
+}
+
+.os-header-skill {
+  font-size: 30px;
+  margin-top: 3px;
+}
+
+.software-header {
+  margin-bottom: 4px;
+}
+
+
+
+
+.lang-html {
+font-size: 20px;
+
+}
+
+.software-list li {
+  font-size: 15px;
+}
+
+.soft-list-header {
+
+font-size:15px;
+
+}
+
+.soft-list-cross {
+font-size: 15px;
+
+}
+
+.github-button {
+
+  border-radius: 18px;
+  border: 1px solid black;
+  font-size: 11px;
+  padding: 8px 17px;
+ top: 13px;
+}
+
+.photo-para {
+  font-size: 15px;
+}
+
+.swan-html {
+  
+font-size: 20px;
+}
+
+.community-para {
+
+  font-size: 15px;
+}
+
+.community-list {
+  font-size: 15px;
+}
 
 
 }
@@ -2348,7 +2549,6 @@ float:left;
 .full-resolution-container {
   display:none;
 }
-
 
 
 
