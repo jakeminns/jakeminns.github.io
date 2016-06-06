@@ -19,9 +19,9 @@ var widthHalf = (window.innerWidth)/2;
 
             $.each(widthFetch.sizes.size, function(y, photoSize){
 
-              if(photoSize.width >= widthHalf){
+              if(photoSize.width >= widthHalf+200){
 
-                if(photoSize.height <= widthHalf){
+                if(photoSize.height <= widthHalf+200){
 
                 console.log(widthFetch);
 
@@ -31,8 +31,13 @@ var widthHalf = (window.innerWidth)/2;
 
 
                 document.getElementById( +x+ "_flickr").style.background = "url('" +photoSize.source+ "')";
-                document.getElementById( +x+ "_flickr").style.backgroundSize = +widthHalf+1+ "px auto";
-                document.getElementById( +x+ "_flickr").style.height = +photoSize.height+"px";
+                document.getElementById( +x+ "_flickr").style.backgroundSize = "auto " +(widthHalf+1)*0.72+ "px";
+                //document.getElementById( +x+ "_flickr").style.height = +photoSize.height+"px";
+                document.getElementById( +x+ "_flickr").style.width = +widthHalf+1+"px";
+                document.getElementById( +x+ "_flickr").style.height = +widthHalf+1+"px";
+
+
+
 
                  document.getElementById( +x+ "_flickr").style.backgroundRepeat = "no-repeat";
               //  document.getElementById( +x+ "_flickr").parentElement.style.height = +photoSize.height+"px";
