@@ -82,6 +82,13 @@ $(window).scroll( function(){
 
 });
 
+$('.soft-proj-dropdown').click(function(){
+
+         $(".classification-hide").toggleClass('proj-classification-hide');
+
+});
+
+
         
 };
 

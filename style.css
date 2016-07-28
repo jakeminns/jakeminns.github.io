@@ -54,10 +54,10 @@
 
 * {
 
-/*border:1px dashed blue;*/
 font-family: 'Open Sans', sans-serif;
 padding:0px;
 margin:0px;
+//border:1px solid black;
 }
 .row, .col-md-12, .col-md-6, .col-md-2, .col-md-1, .col-md-8, .col-md-5 {
   padding:0px;
@@ -1275,22 +1275,90 @@ height:7px;
 
 
 
-.soft-header-skill {
+.soft-proj-header-skill {
 
 color:#585858;
 font-size: 35px;
-text-transform: uppercase;
 position: relative;
-margin-top:-21px;
+margin-top: 60px;
+margin-bottom: 15px;
 
+
+
+}
+
+.soft-proj-underline {
+
+width: 45%;
+
+height: 4px;
+
+background-color: #f29e1a;
+
+color:white;
+
+margin:auto;
+
+display: inline-block;
+
+vertical-align: middle;
+
+margin-bottom: 20px;
 }
 
 
 
+.soft-proj-dropdown {
+  border-radius: 100%;
+  background-color: white;
+  color:#585858;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  margin:auto;
+  padding-left:7px;
+  padding-right:6px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+
+
+}
+
+.soft-proj-dropdown:hover{ 
+  color:#f29e1a;
+  text-decoration: none;
+}
+
+.main-soft-proj{
+    height:100%;
+     text-align:center;
+
+}
 
 .soft-list-text {
 margin-top: 10px;
   font-size: 17px;
+}
+
+.neural-image{
+  background-size:contain;
+  width:100%;
+  background-repeat: no-repeat;
+  height:300px;
+    background-position: center;
+    padding-top:60px;
+
+}
+
+.neural-circle{
+  background-image:url("http://i.imgur.com/s0zYGsf.gif");
+
+}
+
+.neural-grid{
+    background-image:url("http://i.imgur.com/Cc4AXrX.gif");
+
 }
 
 
@@ -1419,10 +1487,74 @@ padding-left:70px;
   color: #f29e1a;
 }
 
+.proj-classification-hide{
+  display:none;
+}
+
+.network-row{
+  text-align:center;
+  margin-top:60px;
+}
+
+.network-header{
+  text-align:left;
+  font-size:20px;
+    font-weight: bold;
+
+  padding: 0px;
+  margin:0px;
+}
+
+.network-text {
+  font-size: 15px;
+  text-align:left;
+  margin-top:20px;
+}
+
+.neural-label{
+font-size:17px;
+}
+
+
+.soft-header-skill {
+
+color:#585858;
+ font-size: 35px;
+text-transform: uppercase;
+position: relative;
+margin-top:-21px
+
+
+}
+
+.network-image{
+  background-image:url("http://i.imgur.com/2x21qaI.png");
+  background-size:contain;
+  width:100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin:0 auto;
+  background-position: center;
+
+}
+
+.network-svg{
+  width:100%;
+}
+
+.svg-line{
+}
+
 
 /* Main Project */
 
+.neural-circle-data{
+background-image:url("http://i.imgur.com/8cPyABD.png");
+}
 
+.neural-grid-data{
+  background-image:url("http://i.imgur.com/ADtHAyX.png");
+}
 
 .project-main-header {
   width:180px;
@@ -1866,7 +1998,7 @@ font-size: 50px;
 
 .work-hip-descr, .hip-list {
   position: relative;
-å  vertical-align: center;
+Ã¥  vertical-align: center;
   color:black;
   font-size: 17px;
   margin-top: 5px;
