@@ -1337,7 +1337,7 @@ margin-bottom: 20px;
 }
 
 .soft-list-text {
-margin-top: 10px;
+margin-top: 40px;
   font-size: 17px;
 }
 
@@ -2523,6 +2523,7 @@ height: 6px;
 }
 
 .soft-list-text {
+  margin-top:40px;
   font-size: 15px;
 }
 
