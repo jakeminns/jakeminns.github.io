@@ -1537,7 +1537,7 @@ constructive feedback with the intention of developing the best solution.</li>
 
 
               
-               <p class="soft-list-text">A neural network was built to distinguish between two groups of data with values of 1 and -1, a number of dataset types were used to test the network. The backpropagation algorithm was used to train the neural network over a number of iterations resulting in a prediction of which group data points belong to that are not described by the test data.</p>
+               <p class="soft-list-text">A neural network was built to classify between two groups of data with values of 1 and -1, a number of data set types were used to test the network with different network topologies. The backpropagation algorithm was used to train the neural network over a number of epochs resulting in a prediction of which group data points belong to that are not described by the test data.</p>
 
 
 
@@ -1654,7 +1654,7 @@ constructive feedback with the intention of developing the best solution.</li>
             <div class="col-md-4"><div class="neural-image neural-circle"></div></div>
         
             <div class="col-md-12">
-            <p class="network-text"> The above figure shows the resulting output of the neural network after being trained with the circle test data at various training itterations. Two properties were feed into the network x and y. The activation function used for this example was tanh(x).</p>
+            <p class="network-text"> The above figure shows the resulting output of a neural network with 2:4:3:1 topology after being trained with the circle test data after various training itterations. Two properties were feed into the network x and y. The activation function used for this example was tanh(x).</p>
             </div>
           </div>
 
@@ -1755,9 +1755,9 @@ constructive feedback with the intention of developing the best solution.</li>
             <line x1="76.6666%" y1="50%" x2="73.6666%" y2="47.7777%" style="stroke:#f29e1a;stroke-width:1" />
 
             //Neurons
-            <circle cx="33.3333%" cy="40%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="first" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;forth.end" /></circle>
-            <circle cx="33.3333%" cy="50%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="first" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;forth.end" /></circle>
-            <circle cx="33.3333%" cy="60%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="first" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;forth.end" /></circle>
+            <circle cx="33.3333%" cy="40%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="first" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;third.end" /></circle>
+            <circle cx="33.3333%" cy="50%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="first" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;third.end" /></circle>
+            <circle cx="33.3333%" cy="60%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="first" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;third.end" /></circle>
 
             <circle cx="50%" cy="15%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="second" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;first.end" /></circle>
             <circle cx="50%" cy="25%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="second" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;first.end" /></circle>
@@ -1768,7 +1768,7 @@ constructive feedback with the intention of developing the best solution.</li>
             <circle cx="50%" cy="75%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="second" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;first.end" /></circle>
             <circle cx="50%" cy="85%" r="10" stroke="black" stroke-width="1" fill="white" ><animate id="second" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;first.end" /></circle>
 
-            <circle cx="66.6666%" cy="50%" r="10" stroke="black" stroke-width="1" fill="white"> <animate id="forth" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;third.end" /></circle>
+            <circle cx="66.6666%" cy="50%" r="10" stroke="black" stroke-width="1" fill="white"> <animate id="third" attributeType="XML" attributeName="fill" to="#f29e1a" dur="1s" begin="0s;third.end" /></circle>
 
             <line x1="44%" y1="9%" x2="56%" y2="9%" style="stroke:#585858;stroke-width:1" />
             <line x1="56%" y1="9%" x2="56%" y2="12%" style="stroke:#585858;stroke-width:1" />
@@ -1791,7 +1791,7 @@ constructive feedback with the intention of developing the best solution.</li>
             <div class="col-md-4"><div class="neural-image neural-grid"></div></div>
             
             <div class="col-md-12">
-            <p class="network-text"> The above figure shows the resulting output of the neural network after being trained with the grid test data at various training itterations. Three properties were feed into the network x, y and x*y. The activation function used for this example was tanh(x).</p>
+            <p class="network-text"> The above figure shows the resulting output of a neural network with 3:8:1 topology after being trained with the grid test data after various training itterations. Three properties were feed into the network x, y and x*y. The activation function used for this example was tanh(x).</p>
             </div>
           </div>
 
