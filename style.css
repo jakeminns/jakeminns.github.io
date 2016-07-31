@@ -57,7 +57,7 @@
 font-family: 'Open Sans', sans-serif;
 padding:0px;
 margin:0px;
-//border:1px solid black;
+/*border:1px solid black;*/
 }
 .row, .col-md-12, .col-md-6, .col-md-2, .col-md-1, .col-md-8, .col-md-5 {
   padding:0px;
@@ -1337,7 +1337,6 @@ margin-bottom: 20px;
 }
 
 .soft-list-text {
-margin-top: 40px;
   font-size: 17px;
 }
 
@@ -1666,6 +1665,8 @@ vertical-align: center;
 .project-2 .project-photo{
   background-image: url('http://i.imgur.com/6AHEIOd.jpg');
   background-size: cover;
+
+  
 }
 
 .project-3 .project-photo{
@@ -1840,6 +1841,9 @@ height:35px;
   /*padding-bottom:20px; */
 
 }
+.photo-text{
+  text-align:left;
+}
 
 
 .photo-slide{
@@ -1881,7 +1885,7 @@ font-size: 17px;
 
 #photo-left-control {
 
-height:100%;
+height:72%;
 background-image: none;
 line-height: 50%;
 width:10%;
@@ -1902,7 +1906,7 @@ background-color: none;
 
 #photo-right-control {
 
-height:100%;
+height:72%;
 background-image: none; 
 width:10%;
 min-width: 50px;
@@ -2523,7 +2527,6 @@ height: 6px;
 }
 
 .soft-list-text {
-  margin-top:40px;
   font-size: 15px;
 }
 

@@ -6,7 +6,8 @@ var apiurl = "https://api.flickr.com/services/rest/?method=flickr.people.getPubl
 var x = 0;
 var y = 0;
 
-var widthHalf = (window.innerWidth)/2;
+var mydiv = document.getElementById("photo-slide");
+var widthHalf = mydiv.offsetWidth/2;
 
 
     $.getJSON("https://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=8b539514ff55edcff58024d073a896e3&user_id=127000141%40N04&extras=url_l&format=json&nojsoncallback=1",function(result){
