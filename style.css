@@ -1191,6 +1191,10 @@ outline:0;
 
 }
 
+.edu-result-button:hover{
+  color:#585858;
+}
+
 .result-list-header{
   width:100%;
   text-align:left;
