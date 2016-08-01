@@ -88,6 +88,35 @@ $('.soft-proj-dropdown').click(function(){
 
 });
 
+$('.foundation-year-button').click(function(){
+
+         $(".foundation-year").toggleClass('proj-classification-hide');
+
+});
+
+$('.first-year-button').click(function(){
+
+         $(".first-year").toggleClass('proj-classification-hide');
+
+});
+
+$('.second-year-button').click(function(){
+
+         $(".second-year").toggleClass('proj-classification-hide');
+
+});
+
+$('.third-year-button').click(function(){
+
+         $(".third-year").toggleClass('proj-classification-hide');
+
+});
+$('.forth-year-button').click(function(){
+
+         $(".forth-year").toggleClass('proj-classification-hide');
+
+});
+
 
         
 };

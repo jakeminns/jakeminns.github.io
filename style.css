@@ -57,7 +57,6 @@
 font-family: 'Open Sans', sans-serif;
 padding:0px;
 margin:0px;
-/*border:1px solid black;*/
 }
 .row, .col-md-12, .col-md-6, .col-md-2, .col-md-1, .col-md-8, .col-md-5 {
   padding:0px;
@@ -1078,7 +1077,7 @@ float:right;
 
 
 .about-me-text {
-margin-top: 90px;
+margin-top: 75px;
   font-size:17px;
   text-align: center;
 }
@@ -1139,7 +1138,7 @@ margin-top: 90px;
 }
 
 .uni-info {
-   margin-bottom: 60px;
+   margin-bottom: 5%;
 
 }
 
@@ -1179,6 +1178,28 @@ top:3px;
 
 }
 
+.edu-result-button{
+  background-color:transparent;
+  border:none;
+text-align:center;
+font-size:15px;
+color:#9d5eb7;
+float:right; 
+padding-right:14%; 
+padding-top:5px;
+outline:0;
+
+}
+
+.result-list-header{
+  width:100%;
+  text-align:left;
+}
+
+.result-row{
+  margin-bottom:5%;
+}
+
 .uni-descr {
   position: relative;
   vertical-align: center;
@@ -1203,8 +1224,8 @@ font-size: 17px;
 
 }
 
-.third-year {
-  margin-top:30px;
+.uni-proj-row {
+  margin-bottom:5%;
 }
 
 
