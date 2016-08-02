@@ -33,6 +33,12 @@ $('.project-link').click(function(){
 
                     var id = $(this).data('project-number');
 
+                    for(var i = 0; i<= 4;i++){
+                        if(i != id){
+                             $('.project-'+i).parent().toggleClass("float-right");
+                        }
+                    }
+
                     if(id == $('.selected-proj-text').parent().data('project-number')){
 
                     $('.selected-proj-button').toggleClass('col-md-3');

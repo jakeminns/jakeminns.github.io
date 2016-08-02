@@ -1687,6 +1687,21 @@ vertical-align: center;
 opacity:1;
 }
 
+.selected-proj-button{
+     position:static;
+
+  float:left;
+   top:0;
+
+
+}
+
+.float-right{
+       position:static;
+  display:inline-table;
+  float:right;
+}
+
 
 
 /*Photo*/
