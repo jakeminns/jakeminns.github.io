@@ -29,18 +29,41 @@ var main = function() {
         });
 
 
-                $('.project-link').click(function(){
+$('.project-link').click(function(){
 
-            var id = $(this).data('project-number');
-                $('.overlay-project-'+id).addClass('overlay-show');
+                    var id = $(this).data('project-number');
 
-                $('.overlay-exit-button').click(function(){
-                $('.overlay-project-'+id).removeClass('overlay-show');
+                    if(id == $('.selected-proj-text').parent().data('project-number')){
 
-                });
+                    $('.selected-proj-button').toggleClass('col-md-3');
+                    $('.selected-proj-button').toggleClass('col-md-6');
+                    $('.selected-proj-button').removeClass('selected-proj-button');
 
-        });
+                    $('.selected-proj-text').toggleClass('proj-classification-hide')
+                    $('.selected-proj-text').removeClass('selected-proj-text');
+                    
 
+                    } else {
+
+                    $('.selected-proj-button').toggleClass('col-md-3');
+                    $('.selected-proj-button').toggleClass('col-md-6');
+                    $('.selected-proj-button').removeClass('selected-proj-button');
+
+                    $('.selected-proj-text').toggleClass('proj-classification-hide')
+                    $('.selected-proj-text').removeClass('selected-proj-text');
+
+
+                    $('.project-'+id).parent().toggleClass('selected-proj-button');
+                    $('.project-'+id).parent().toggleClass('col-md-3');
+                    $('.project-'+id).parent().toggleClass('col-md-6');
+                   
+                    $('.proj-text-'+id).toggleClass('proj-classification-hide');
+                    $('.proj-text-'+id).toggleClass('selected-proj-text');
+                    
+                    }
+
+
+});
 
 
 $(window).load( function(){
@@ -114,6 +137,15 @@ $('.third-year-button').click(function(){
 $('.forth-year-button').click(function(){
 
          $(".forth-year").toggleClass('proj-classification-hide');
+
+});
+
+$('.project-1').click(function(){
+
+         $(".project-1").toggleClass('selected-proj-button');
+         $(".project-1").parent().toggleClass('col-md-3');
+         $(".project-1").parent().toggleClass('col-md-6');
+
 
 });
 
