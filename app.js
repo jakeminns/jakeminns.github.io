@@ -1,7 +1,7 @@
 var main = function() {
 
         $('#Carousel-General').carousel({
-                interval: 4000
+                interval: 40000
         });
 
  $('.button-0').addClass('active-button-0');

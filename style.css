@@ -459,6 +459,7 @@ margin-bottom: 50px;
   }
 
 .result-percent {
+  float:right;
   margin-left:30px;
   color:white;
   font-size: 18px;
