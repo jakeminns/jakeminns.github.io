@@ -22,11 +22,7 @@ var main = function() {
 
         });
 
-        $('.project-link').click(function(){
 
-                        $("project-overlay").toggleClass('project-link-clicked')
-
-        });
 
 
 $('.project-link').click(function(){
@@ -35,7 +31,7 @@ $('.project-link').click(function(){
 
                     for(var i = 0; i<= 4;i++){
                         if(i != id){
-                             $('.project-'+i).parent().toggleClass("float-right");
+                             $('.projects-'+i).parent().toggleClass("float-right");
                         }
                     }
 
@@ -146,14 +142,7 @@ $('.forth-year-button').click(function(){
 
 });
 
-$('.project-1').click(function(){
 
-         $(".project-1").toggleClass('selected-proj-button');
-         $(".project-1").parent().toggleClass('col-md-3');
-         $(".project-1").parent().toggleClass('col-md-6');
-
-
-});
 
 
         
