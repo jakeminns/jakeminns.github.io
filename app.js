@@ -1,5 +1,7 @@
 var main = function() {
 
+
+
         $('#Carousel-General').carousel({
                 interval: 40000
         });
@@ -7,7 +9,7 @@ var main = function() {
  $('.button-0').addClass('active-button-0');
 
          $('#Carousel-General').on('slide.bs.carousel', function (e) {
-                 
+
                  var id = $('.item.active').data('slide-number');
                 $('.button-'+id).removeClass('active-button-'+id);
 
@@ -15,7 +17,7 @@ var main = function() {
         });
 
         $('#Carousel-General').on('slid.bs.carousel', function (e) {
-                 
+
                  var id = $('.item.active').data('slide-number');
                 $('.button-'+id).addClass('active-button-'+id);
 
@@ -43,7 +45,7 @@ $('.project-link').click(function(){
 
                     $('.selected-proj-text').toggleClass('proj-classification-hide')
                     $('.selected-proj-text').removeClass('selected-proj-text');
-                    
+
 
                     } else {
 
@@ -58,10 +60,10 @@ $('.project-link').click(function(){
                     $('.project-'+id).parent().toggleClass('selected-proj-button');
                     $('.project-'+id).parent().toggleClass('col-md-3');
                     $('.project-'+id).parent().toggleClass('col-md-6');
-                   
+
                     $('.proj-text-'+id).toggleClass('proj-classification-hide');
                     $('.proj-text-'+id).toggleClass('selected-proj-text');
-                    
+
                     }
 
 
@@ -83,7 +85,7 @@ $(window).load( function(){
 
         }
 
-    }); 
+    });
 
 });
 
@@ -103,7 +105,7 @@ $(window).scroll( function(){
 
         }
 
-    }); 
+    });
 
 });
 
@@ -113,6 +115,11 @@ $('.soft-proj-dropdown').click(function(){
 
 });
 
+$('.results-button').click(function(){
+
+         $(".result").toggleClass('proj-classification-hide');
+
+});
 $('.foundation-year-button').click(function(){
 
          $(".foundation-year").toggleClass('proj-classification-hide');
@@ -143,9 +150,6 @@ $('.forth-year-button').click(function(){
 });
 
 
-
-
-        
 };
 
 $(document).ready(main);
