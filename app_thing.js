@@ -12,7 +12,7 @@ var widthHalf = 1000;
         
         $.each(result, function(i, item){
         
-            $.getJSON("https://api.thingiverse.com/users/jkminns/things"+result[i].id+"/images/0",function(imageResult){
+            $.getJSON("https://api.thingiverse.com/users/jkminns/things"+result[i].id+"/images/0?access_token=46d84caf6cbf8d4afc2215b32d758854",function(imageResult){
        			
        			$.each(result, function(x, imageItem){
 
