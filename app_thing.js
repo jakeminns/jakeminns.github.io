@@ -20,6 +20,7 @@ var widthHalf = 1000;
        				if(imageResult[0].sizes[x].display = "display" && imageResult[0].sizes[x].size =="large"){
        						console.log(imageResult[0].sizes[x].url);
        						var div = document.createElement("a");
+       						
 							div.style.background =  "url('" +imageResult[0].sizes[x].url+ "')";
 							div.style.backgroundRepeat = "no-repeat";
 							div.style.backgroundSize="cover";
