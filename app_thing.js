@@ -12,6 +12,16 @@ var widthHalf = 1000;
 
 
         console.log(result);
+        $.each(result.thumbnail, function(i, photo){
+        console.log();
+ 		document.getElementById(thingid).style.background = "url('" +photo.source+ "')";
+ 		                 x=x+1;
+
+
+                 return false;
+                 return false;
+
+      });
 
     });
 
