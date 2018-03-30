@@ -12,11 +12,11 @@ var widthHalf = 1000;
         
         $.each(result, function(i, item){
         
-        console.log("https://api.thingiverse.com/users/jkminns/things"+results[i].id+"/images/0");
+        console.log("https://api.thingiverse.com/users/jkminns/things"+result[i].id+"/images/0");
 
 		var div = document.createElement("a");
 		div.style.background =  "url('" +result[i].thumbnail+ "')";
-		
+
 		div.style.backgroundRepeat = "no-repeat";
 		div.style.backgroundSize="cover"
 		div.style.color = "white";
