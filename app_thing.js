@@ -12,9 +12,9 @@ var widthHalf = 1000;
 
 
         console.log(result.0.thumbnail);
-        $.each(result.0.thumbnail, function(i, photo){
-        console.log(photo.source);
- 		document.getElementById(thingid).style.background = "url('" +photo.source+ "')";
+        $.each(result, function(i, item){
+        console.log(item[i]);
+ 		document.getElementById(thingid).style.background = "url('" +result[i].thumbnail+ "')";
  		                 x=x+1;
 
 
