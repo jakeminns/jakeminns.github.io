@@ -12,8 +12,14 @@ var widthHalf = 1000;
         
         $.each(result, function(i, item){
         
-        console.log("https://api.thingiverse.com/users/jkminns/things"+result[i].id+"/images/0");
+            $.getJSON("https://api.thingiverse.com/users/jkminns/things"+result[i].id+"/images/0",function(imageResult){
+       			
+       			$.each(result, function(x, imageItem){
 
+        			console.log(imageResult[x]);
+
+        		});
+       		});
 		var div = document.createElement("a");
 		div.style.background =  "url('" +result[i].thumbnail+ "')";
 
