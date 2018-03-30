@@ -84,6 +84,8 @@ margin:0px;
 
 .cont3d{
   opacity: 0.7;
+  overflow: hidden;
+
 }
 .cont3d:hover{
   overflow: hidden;
