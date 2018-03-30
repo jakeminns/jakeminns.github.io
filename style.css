@@ -384,7 +384,7 @@ display:block;
 }
 
 .face-pic{
-  display: none;
+ /* display: none;*/
 border-radius: 50%;
 vertical-align: middle;
 border: 0;
