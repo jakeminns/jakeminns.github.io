@@ -14,7 +14,7 @@ var widthHalf = 1000;
         console.log(result[1].thumbnail);
         $.each(result, function(i, item){
         console.log(result[i]);
- 		document.getElementById(thingid).style.background = "url('" +result[i].thumbnail.source+ "')";
+ 		document.getElementById(thingid).style.background = "url('" +result[i].thumbnail+ "')";
  		                 x=x+1;
 
 
