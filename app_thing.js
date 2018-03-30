@@ -12,9 +12,9 @@ var widthHalf = 1000;
         
         $.each(result, function(i, item){
         
-        console.log(result[i]);
+        console.log(result[i].public_url);
 
-		var div = document.createElement("div");
+		var div = document.createElement("a");
 		div.style.background =  "url('" +result[i].thumbnail+ "')";
 		div.style.backgroundRepeat = "no-repeat";
 		div.style.backgroundSize="cover"
