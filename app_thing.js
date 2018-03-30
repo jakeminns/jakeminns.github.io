@@ -13,8 +13,8 @@ var widthHalf = 1000;
         $.each(result, function(i, item){
         
             $.getJSON("https://api.thingiverse.com/things/"+result[i].id+"/images/0?access_token=46d84caf6cbf8d4afc2215b32d758854",function(imageResult){
-       			console.log(imageResult)
-       			$.each(result, function(x, imageItem){
+       			console.log(imageResult[0].sizes)
+       			$.each(imageResult[0].sizes, function(x, imageItem){
 
 
        				if(imageResult[x].display = "display" && imageResult[x].size =="large"){
