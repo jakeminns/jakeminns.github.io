@@ -11,7 +11,7 @@ var widthHalf = 1000;
     $.getJSON("https://api.thingiverse.com/users/jkminns/things?access_token=46d84caf6cbf8d4afc2215b32d758854",function(result){
 
 
-        console.log(result.0.thumbnail);
+        console.log(result[1]);
         $.each(result, function(i, item){
         console.log(item[i]);
  		document.getElementById(thingid).style.background = "url('" +result[i].thumbnail+ "')";
