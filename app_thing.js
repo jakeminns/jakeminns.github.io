@@ -22,8 +22,7 @@ var widthHalf = 1000;
 		div.setAttribute("id","3dObj_"+i)
 		mainDiv.appendChild(div)
 
-        return false;
-        return false;
+
 
       });
 
