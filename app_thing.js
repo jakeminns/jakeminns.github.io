@@ -27,7 +27,7 @@ var widthHalf = 1000;
 							div.style.backgroundSize="cover";
 							div.style.color = "white";
 							div.setAttribute("id","3dObj_"+i)
-							div.setAttribute("class","col-md-2 col-s-2 col-sm-2")
+							div.setAttribute("class","col-md-2 col-s-2 col-sm-2 cont3d")
 							div.setAttribute("href",result[i].public_url)
 							div.style.height = "16.66666vw";
 							mainDiv.appendChild(div)
