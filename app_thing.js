@@ -17,7 +17,7 @@ var widthHalf = 1000;
        			$.each(imageResult[0].sizes, function(x, imageItem){
 
 
-       				if(imageResult[0].sizes[x].display = "display"){
+       				if(imageResult[0].sizes[x].type == "display"){
        					if(imageResult[0].sizes[x].size =="large"){
        						console.log(imageResult[0].sizes[x].url);
        						var div = document.createElement("a");
