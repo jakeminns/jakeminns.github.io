@@ -17,10 +17,11 @@ var widthHalf = 1000;
        			$.each(imageResult[0].sizes, function(x, imageItem){
 
 
-       				if(imageResult[0].sizes[x].display = "display" && imageResult[0].sizes[x].size =="large"){
+       				if(imageResult[0].sizes[x].display = "display"){
+       					if(imageResult[0].sizes[x].size =="large"){
        						console.log(imageResult[0].sizes[x].url);
        						var div = document.createElement("a");
-       						
+
 							div.style.background =  "url('" +imageResult[0].sizes[x].url+ "')";
 							div.style.backgroundRepeat = "no-repeat";
 							div.style.backgroundSize="cover";
@@ -30,6 +31,8 @@ var widthHalf = 1000;
 							div.setAttribute("href",result[i].public_url)
 							div.style.height = "16.66666vw";
 							mainDiv.appendChild(div)
+
+						}
 
        				}
 
