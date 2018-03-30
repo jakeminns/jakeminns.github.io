@@ -17,8 +17,8 @@ var widthHalf = 1000;
        			$.each(imageResult[0].sizes, function(x, imageItem){
 
 
-       				if(imageResult[x].display = "display" && imageResult[x].size =="large"){
-       						console.log(imageResult[x].url);
+       				if(imageItem[x].display = "display" && imageItem[x].size =="large"){
+       						console.log(imageItem[x].url);
        				}
 
 
