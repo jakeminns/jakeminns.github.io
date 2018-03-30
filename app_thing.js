@@ -31,7 +31,7 @@ var widthHalf = 1000;
 							div.setAttribute("href",result[i].public_url)
 							div.style.height = "16.66666vw";
 							mainDiv.appendChild(div)
-
+							return false;
 						}
 
        				}
