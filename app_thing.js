@@ -13,7 +13,7 @@ var widthHalf = 1000;
 
         console.log(result);
         $.each(result.thumbnail, function(i, photo){
-        console.log();
+        console.log(photo.source);
  		document.getElementById(thingid).style.background = "url('" +photo.source+ "')";
  		                 x=x+1;
 
