@@ -14,6 +14,7 @@ var widthHalf = 1000;
         
         console.log(result[i]);
 
+		var div = document.createElement("div");
 		div.style.background =  "url('" +result[i].thumbnail+ "')";
 		div.style.backgroundRepeat = "no-repeat";
 		div.style.backgroundSize="cover"
@@ -23,6 +24,7 @@ var widthHalf = 1000;
 		div.setAttribute("href",result[i].public_url)
 
 		div.style.height = "16.66666vw";
+
 
 		mainDiv.appendChild(div)
 
