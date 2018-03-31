@@ -88,10 +88,27 @@ margin:0px;
 
 }
 .cont3d:hover{
-  overflow: hidden;
   opacity: 1;
-  -webkit-transform: scale(1.5,1.5);
+ /*    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+ -webkit-transform: scale(1.5,1.5);
   -webkit-transition: all 0.3s ease-in-out;
+*/
+}
+
+.cont3dtext{
+  opacity: 0;
+  overflow: hidden;
+  height:20%;
+  position:absolute;
+  z-index:1;
+
+}
+.cont3text:hover{
+  opacity: 1;
 
 }
 
