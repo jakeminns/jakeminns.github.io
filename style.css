@@ -2594,6 +2594,7 @@ font-size: 16px;
 .bracket-symb {
 margin-top: 20px;
 font-size: 60px;
+margin-bottom: 4px;
 }
 
 .lang-underline {
@@ -2648,11 +2649,10 @@ height: 6px;
 
 
 .os-symb {
-margin-top: 20px;
 
 font-size: 60px;
-  margin-top:14px;
-
+  margin-top:20px;
+margin-bottom: 22px;
 
 }
 
