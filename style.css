@@ -248,7 +248,6 @@ font-weight: 550;
 
   background-image: linear-gradient(129deg,rgba(57, 227, 165,0.7),rgba(0, 136, 209,0.7));
   background-size: contain;
-display: block;
 
   margin: 0;
   padding: 0;
@@ -2425,6 +2424,13 @@ font-size: 14px;
         font-size: 15px;
 
 }
+.result-row{
+  margin-bottom: 0em;
+}
+
+.uni-results{
+  margin-bottom: 0em;
+}
 
 .edu-slide-text {
 
@@ -2564,12 +2570,12 @@ margin-top:13px
 }
 
 .uni-descr {
-
+margin-left: 1em;
   font-size: 14px;
 }
 
 .uni-results tr td {
-
+  padding-left: 1em;
   font-size: 15px;
 }
 
@@ -2843,9 +2849,10 @@ display: none;
 .highlightSection{
   display:none;
 }
-
-@media screen and (max-width: 768px) {
-  .col-centered{
+.nav-full-col{
+  display:none;
+}
+.col-centered{
     float: none;
     margin: 0 auto;
 }
