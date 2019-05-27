@@ -249,6 +249,7 @@ font-weight: 550;
   background-image: linear-gradient(129deg,rgba(57, 227, 165,0.7),rgba(0, 136, 209,0.7));
   background-size: contain;
 display: block;
+
   margin: 0;
   padding: 0;
   background-attachment: fixed;
@@ -260,7 +261,7 @@ display: block;
   display: inline-flex;
 padding: 0;
 margin:0;
-height:auto;
+height:100%;
 vertical-align: top;
 background-attachment: fixed;
 
@@ -287,12 +288,7 @@ text-align: center;
   margin-top: 30px;
   margin-bottom: 5px;
 }
-.top-intro-box img{
-  padding: 0;
-    vertical-align: top;
-    width: 100%; /* max width */
-    opacity: 0;  /* make it transparent */
-}
+
  /* Carousel  */
 
  #Carousel-General {
@@ -308,18 +304,8 @@ top:40px;
 
 }
 
-.slide-box {
-width:90%;
-margin: 0 auto;
-
-padding:0px;
-color:white;
-
-font-size:13px;
-position: relative;
-  height:400px;
-opacity:1;
-background-image: url('')
+.navRow{
+  margin-bottom: 2em;
 }
 
 .box {
@@ -411,12 +397,11 @@ display:block;
 }
 
 .face-pic{
- /* display: none;*/
 border-radius: 50%;
 vertical-align: middle;
 border: 0;
-    height: 178px;
-    width: 178px;
+    height: 100%;
+    width: 100%;
         box-sizing: border-box;
 }
 
@@ -1104,7 +1089,7 @@ font-family: 'Oswald', sans-serif;
   position: relative;
     background-color: #45C0E4;
     height:7px;
-    width:130px;
+    width:30%;
 
 }
 
@@ -1329,6 +1314,7 @@ color: #45C0E4;
 .education-text {
   height:0 auto;
   padding-top: 0px;
+  margin-top: 3em;
 }
 
 
@@ -2126,7 +2112,7 @@ font-size: 50px;
 
 .work-hip-descr, .hip-list {
   position: relative;
-Ã¥  vertical-align: center;
+  vertical-align: center;
   color:black;
   font-size: 17px;
   margin-top: 5px;
@@ -2849,5 +2835,20 @@ float:left;
 display: none;
   }
 
+
+}
+
+
+@media screen and (max-width: 768px) {
+.highlightSection{
+  display:none;
+}
+
+@media screen and (max-width: 768px) {
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+  
 
 }
