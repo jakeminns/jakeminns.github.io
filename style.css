@@ -50,6 +50,31 @@
 }
 
 
+.rg-icon  {
+
+  background-image: url('https://www.uwo.ca/web_standards/img/social/svg/icn-researchgate.svg');
+background-size: 30px 30px;
+border:none;
+border-radius: 50%;
+float:right;
+position: relative;
+
+height:30px;
+width:30px;
+}
+
+.gs-icon  {
+
+  background-image: url('https://www.uwo.ca/web_standards/img/social/svg/icn-googlescholar.svg');
+background-size: 30px 30px;
+border:none;
+border-radius: 50%;
+float:right;
+position: relative;
+
+height:30px;
+width:30px;
+}
 
 
 * {
@@ -1335,6 +1360,10 @@ color: #45C0E4;
 
 }
 
+.collage-header {
+  background-color: #27ae60;
+  width:358px;
+}
 .3dprinting-header {
   background-color: #45C0E4;
   width:358px;
